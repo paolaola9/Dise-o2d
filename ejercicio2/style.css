@@ -1,0 +1,28 @@
+.Retraso {
+				animation-delay:3s;
+				-webkit-animation-delay:3s;
+			}
+
+
+            .ObjetoAnimado {
+				float:left;
+				margin-right:20px;
+				width:150px;
+				height:150px;
+				animation-name:MiAnimacion;
+				animation-duration:30s;
+				-webkit-animation-name:MiAnimacion;
+				-webkit-animation-duration:30s;
+            }
+
+
+            @-webkit-keyframes MiAnimacion {
+                0%   { background-color:yellow;
+								}
+            @@keyframes MiAnimacion {
+
+            } MiAnimacion {
+                0%   { background-color:#EEE; }
+								50%{ background-color:#00A; }
+                100% { background-color:#00A; }
+            }

@@ -1,0 +1,21 @@
+#simple {
+  width: 150px;
+  height: 150px;
+  animation: change-background 4s linear infinite alternate;
+}
+
+/* Keyframes */
+@keyframes change-background {
+  0% {
+    background: blue;
+  }
+  50% {
+    background: orange;
+  }
+  100% {
+    background: green;
+  }
+}
+
+pre {
+  line-height: 2;
