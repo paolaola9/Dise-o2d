@@ -1,0 +1,38 @@
+body{
+background-image: url(background.png);
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.cloud{
+  padding-left: 50px;
+  padding-top: 10px;
+  position: relative;
+  animation-name: cloud;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+
+}
+
+@keyframes cloud {
+  0% {top: 0px;}
+    50% {left: 200px;}
+
+}
+
+img.flower{
+  padding-left: 404px;
+  padding-top: 196px;
+  position: relative;
+  animation-name: flower;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes flower{
+  0% {top: 0px;}
+    50% {left: 200px;}
+
+}

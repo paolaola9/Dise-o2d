@@ -1,0 +1,30 @@
+.circle{
+background-image:url("circulo.png");
+background-repeat: no-repeat;
+width: 100px;
+height: 100px;
+  animation: giro 2s linear infinite;
+}
+
+@keyframes giro {
+  to{transform: rotate(360deg);}
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  animation: giro2 4s linear infinite;
+  animation-direction: alternate;
+  position: relative;
+
+
+}
+
+@keyframes giro2 {
+
+  0%   {left:0px; top:0px;}
+   25%  { left:200px; top:0px;}
+   50%  { left:200px; top:200px;}
+   75%  { left:0px; top:200px;}
+   100% { left:0px; top:0px;}
+}

@@ -1,0 +1,27 @@
+body{
+  background-color: yellow;
+}
+
+img.yoyo2{
+  padding-left: 164px;
+    margin-top: 94px;
+}
+
+img.mov{
+  padding-left: 310px;
+      margin-top: -222px;
+      position: relative;
+      -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */
+      -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 2s;
+      animation-fill-mode: forwards;
+
+      }
+
+      @keyframes example {
+          0% {top: 0px;}
+          20% {top: 50px;}
+          50%{bottom: 20px;}
+      }
